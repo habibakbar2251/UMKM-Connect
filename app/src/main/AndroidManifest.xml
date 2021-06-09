@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.d3if4304.umkmconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name=".com.google.android.geo.API.KEY"
+        android:value="AIzaSyCFhagGPXZZ7mk08VFBLqxo_mJvlAx3aHA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMKMConnect">
+        <activity android:name=".menupage.HomeDetail"></activity>
+        <activity android:name=".menupage.ChatProfile" />
+        <activity android:name=".menupage.ChatExample" />
+        <activity android:name=".AddFragment" />
+        <activity android:name=".AboutFragment" />
+        <activity android:name=".menupage.ChatPage" />
+        <activity android:name=".menupage.LocationPage" />
+        <activity android:name=".menupage.SearchPage" />
+        <activity android:name=".menupage.HomePage" />
+        <activity android:name=".menupage.ProfilePage" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".RegistrationPage" />
+        <activity android:name=".UMKMPage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

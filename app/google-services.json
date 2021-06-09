@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945324923215",
+    "project_id": "proyektingkat2",
+    "storage_bucket": "proyektingkat2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945324923215:android:cba1a1f727d3983bf50d3a",
+        "android_client_info": {
+          "package_name": "org.d3if4304.umkmconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945324923215-tetkujm8cb04l03prv9drpg837mb5ntv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJTDZp07JikYSCSkh4QCyZnRD6gj2w328"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945324923215-tetkujm8cb04l03prv9drpg837mb5ntv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

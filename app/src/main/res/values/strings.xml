@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UMKMConnect</string>
+    <string name="logo">UMKM Connect</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account ...</string>
+    <string name="reg_logo">REGISTRATION</string>
+    <string name="create_btn">Create</string>
+    <string name="go_Login" />
+    <string name="login_account">Already Have Account ?</string>
+
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+
+    <string name="trader_NAME"> Warung Pak Ucok </string>
+    <string name="trader_ADDRESS"> Indonesia </string>
+    <string name="trader_DESC"> Ini Warung Pak Ucok </string>
+
+    <dimen name="horizontal_margin">16dp</dimen>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="copyright">
+        UMKM Connect Merupakan Aplikasi Android untuk mempertemukan antara
+        pelaku UMK dengan para pembeli di sekitar. Aplikasi ini akan melacak
+        penjual terdekat.\nCopyright 2021 Habib Fauzan Akbar.\nAll rights reserved.
+    </string>
+</resources>

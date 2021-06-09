@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/registrationLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/reg_logo"
+        android:textColor="#27B0A8"
+        android:textSize="30dp"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintBottom_toTopOf="@+id/createFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/createFullName"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input_box"
+        android:drawableStart="@drawable/ic_first_name"
+        android:drawablePadding="10dp"
+        android:drawableTint="#27B0A8"
+        android:ems="10"
+        android:hint="Create Full Name ..."
+        android:inputType="text"
+        android:paddingStart="15px"
+        android:paddingEnd="25px"
+        android:textColor="#27B0A8"
+        android:textColorHint="#CCD2D2"
+        android:textSize="15dp"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrationLogo" />
+
+    <EditText
+        android:id="@+id/createEmail"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input_box"
+        android:drawableStart="@drawable/ic_create_email"
+        android:drawablePadding="10dp"
+        android:drawableTint="#27B0A8"
+        android:ems="10"
+        android:hint="Create Email ..."
+        android:inputType="textEmailAddress"
+        android:paddingStart="15px"
+        android:paddingEnd="25px"
+        android:textColor="#27B0A8"
+        android:textColorHint="#CCD2D2"
+        android:textSize="15dp"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createFullName" />
+
+    <EditText
+        android:id="@+id/createPassword"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input_box"
+        android:drawableStart="@drawable/ic_create_key"
+        android:drawablePadding="10dp"
+        android:drawableTint="#27B0A8"
+        android:ems="10"
+        android:hint="Create Password ..."
+        android:inputType="textPassword"
+        android:paddingStart="15px"
+        android:paddingEnd="25px"
+        android:textColor="#27B0A8"
+        android:textColorHint="#CCD2D2"
+        android:textSize="15dp"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createEmail" />
+
+    <Button
+        android:id="@+id/reg_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:backgroundTint="#006660"
+        android:text="@string/create_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPassword" />
+
+    <TextView
+        android:id="@+id/goToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="25dp"
+        android:text="@string/login_account"
+        android:textColor="#27B0A8"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_Button"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
