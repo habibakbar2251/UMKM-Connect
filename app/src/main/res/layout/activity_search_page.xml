@@ -5,18 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         tools:context=".menupage.SearchPage">
 
-    <SearchView
-        android:id="@+id/search_Bar"
-        android:queryHint="Search ..."
+    <EditText
+        android:id="@+id/searchBar"
+        android:hint="Search ..."
         android:iconifiedByDefault="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/custom_search_bar"
+        android:textColor="#27B0A8"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:layout_marginStart="16dp"
@@ -25,7 +25,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/searchTrader"
+            android:id="@+id/search_Trader"
             tools:listitem="@layout/trader_row"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

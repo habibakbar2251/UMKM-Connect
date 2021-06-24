@@ -18,7 +18,6 @@ import kotlinx.android.synthetic.main.activity_registration_page.*
 class AddFragment : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
-    private lateinit var dataBaseReference: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
